@@ -1,0 +1,34 @@
+@import "../variables";
+// colors
+$nav-link-color: var(--color-nav-link);
+$nav-link-hover-color: var(--color-nav-link);
+
+// sizes
+$navbar-brand-font-size: 2rem;
+$nav-link-font-weight: 600;
+
+// spacing
+$nav-link-padding-y: 1rem;
+
+// classes
+.nav-item.active {
+	.nav-link::after {
+		opacity: 1;
+	}
+}
+
+.nav-item {
+	&:hover {
+		.nav-link {
+			&::after {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.nav_type--other {
+	background-color: $white;
+	--color-nav-link: #{$black};
+	padding: 8px 0;
+}

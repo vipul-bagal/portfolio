@@ -1,0 +1,17 @@
+.cta-button {
+	width: 200px;
+	color: $white;
+	cursor: pointer;
+	padding: 12px 24px;
+	margin-bottom: 20px;
+	border-radius: 18px;
+	letter-spacing: 1px;
+	transition: all 0.5s;
+	text-decoration: none;
+	border: 2px solid $white;
+
+	&:hover {
+		color: $black-secondary;
+		background-color: $white;
+	}
+}
