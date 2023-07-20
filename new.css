@@ -1,0 +1,447 @@
+/* Reset styles */
+body, h1, h2, h3,h5, p, img, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+  
+  body {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    scroll-behavior: smooth;
+    padding-top: 50px;
+  }
+  
+  /* Header styles */
+  header {
+    font-family: 'Baloo 2', cursive;
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Navigation styles */
+    .navbar {
+    /* Update the height of the navbar */
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f51b5;
+  }
+  
+  .navbar a {
+    /* Update the hover effect for nav items */
+    font-family: 'Baloo 2', cursive;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #fff;
+    color: #3f51b5;
+    border-color: #3f51b5;
+  }
+
+  .fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #3f51b5;
+  height: 70px; /* Update the height of the navbar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Update the hover effect for nav items in fixed-top navbar */
+.fixed-top a:hover {
+  background-color: #fff;
+  color: #3f51b5;
+  border-color: #3f51b5;
+}
+  
+  
+  /* Section styles */
+  .section {
+    padding: 5rem 0;
+  }
+  
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .home_tab{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #3f51b5;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.2s ease;
+    color: #fff;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h2 {
+    font-family: 'Baloo 2', cursive;
+    margin-bottom: 1rem;
+  }
+  
+  .card-content {
+    margin-bottom: 1rem;
+  }
+  
+  .card-content p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-content img {
+    margin-right: 0.5rem;
+  }
+  
+ /* Home section styles */
+#home {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #D3D3D3;
+    padding: 3rem 1rem;
+    color: #333;
+  }
+  
+  .home_tab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+  }
+
+  .profile {
+    flex: 0 0 36%;
+    text-align: center;
+    max-width: 700px;
+    background-color: #3f51b5; /* Update the background color */
+    border-radius: 50%; /* Make the div circular */
+    overflow: hidden; /* Hide the overflow of the background color */
+  }
+
+  .profile:hover {
+    background-color: #333;
+  }
+  
+  .profile img {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .intro {
+    flex: 0 0 55%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+  }
+  
+  .intro h1 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  
+  
+ /* Experience Section styles */
+#experience {
+  background-color: #3f51b5; /* Blue background */
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.white-bg {
+  background-color: #fff; /* White background for the cards */
+  color: #333;
+  text-align: left;
+}
+
+.white-text {
+  color: #fff; /* White text color for the Experience title */
+}
+
+.experience-title {
+  margin-bottom: 1.5rem; /* Add some space between the title and cards */
+  
+}
+
+.experience-card {
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem; /* Add some space between the cards */
+}
+
+.bullet {
+  margin-right: 10px; /* Add some space between the bullet and the text */
+}
+
+.experience-card p,h4 {
+  padding-left: 1.2rem;
+  margin: 0; /* Add left padding to shift the content to the right */
+}
+
+.experience-content h3{
+  margin-bottom: 0;
+}
+
+.company{
+  display: flex;
+  justify-content: space-between;
+}
+
+.description{
+  font-size: small;
+  font-weight: 600;
+}
+   
+  /* Skills section styles */
+  #skills {
+    font-family: 'Baloo 2', cursive;
+    background-color: #D3D3D3;
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #333;
+  }
+  
+  .skill-container {
+    /* Update the display property for responsive layout */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill {
+    flex: 0 0 calc(25% - 20px);
+    background-color: #3f51b5;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    margin: 10px;
+    transition: transform 0.2s ease;
+    color: #fff;
+  }
+
+  .white_container{
+    background-color: white;
+    margin: 1rem 2.5rem;
+    border-radius: 50%;
+    justify-items: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    object-fit: cover;
+  }
+
+  .white_container img{
+    margin: 1rem;
+    min-width: 4rem;
+    min-height: 4rem;
+  }
+  
+  .skill:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skill img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+/* Education Section styles */
+#education {
+  background-color: #3f51b5; /* Blue background */
+  color: #fff; /* White text color for the Education section */
+  text-align: center;
+  padding: 2.1rem 1rem;
+  
+}
+
+#education h2 {
+  color: #fff;
+  margin-bottom: 1.5rem; /* Change the color of heading to blue */
+}
+
+.education-card {
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem; /* Add some space between the cards */
+  background-color: #fff; /* White background for the cards */
+  color: #333; /* Font color inside the card */
+  text-align: left; /* Align inner content to the left */
+}
+
+.education-card h3 {
+  margin-top: 0; /* Remove the default margin on the top of h3 */
+}
+
+.education-card h3::before {
+  content: "\2022"; /* Bullet symbol before the title */
+  margin-right: 10px; /* Add some space between the bullet and the title */
+}
+
+.education-card .university {
+  font-size: 18px; /* Use different font size for university name */
+}
+
+.education-card .description {
+  font-size: 16px; /* Use different font size for description */
+}
+
+
+
+  
+  
+  
+  /* Hobbies section styles */
+#hobbies-education {
+    font-family: 'Baloo 2', cursive;
+    background-color: #D3D3D3;
+    text-align: center;
+    padding: 2.1rem 1rem;
+    color: #333;
+  }
+  
+  .hobby-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .hobby {
+    flex: 0 0 calc(25% - 20px);
+    background-color: #3f51b5;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 10px;
+    transition: transform 0.2s ease;
+    color: #fff;
+  }
+  
+  .hobby:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hobby img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .hobby p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+
+  
+  
+  /* Tech-Stack section styles */
+  #tech-stack {
+    font-family: 'Baloo 2', cursive;
+    background-color: #D3D3D3;
+    text-align: center;
+    padding: 2.1rem 1rem;
+    color: #333;
+  }
+  
+
+/* Connect with Me section styles */
+#social-media {
+    font-family: 'Baloo 2', cursive;
+    background-color: #3f51b5;
+    text-align: center;
+    padding: 2.1rem 1rem;
+    color: #fff;
+  }
+  
+  
+  
+  .social-media-container {
+    /* Update the display property for responsive layout */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media-item {
+    flex: 0 0 calc(25% - 20px);
+    background-color: #fff; /* Background color for the cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 10px;
+    transition: transform 0.2s ease;
+    color: #D3D3D3; /* Text color for the cards */
+  }
+  
+  .social-media-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-media-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  /* Footer styles */
+  footer {
+    font-family: 'Baloo 2', cursive;
+    background-color: #000; /* Change the background color to black */
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  /* Add any additional global styles here */
+  
